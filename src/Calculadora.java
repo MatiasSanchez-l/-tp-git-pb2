@@ -38,11 +38,26 @@ public class Calculadora {
 
 			break;
 
+		case 3:
+
+			resultado = a * b;
+
+			break;
+		case 4:
+
+			resultado = a / b;
+
+			break;
+
 		default:
 
 			resultado = 0;
+
+			System.out.println("Error de opcion.");
 		}
 
 		System.out.println("El resultado es " + resultado.toString());
+
 	}
+
 }

@@ -13,4 +13,12 @@ Se debería actuliaziar el repositorio local, mediante un pull.
 
 7- ¿Qué estrategia propondrían para evitar esta situación?
 
-Crear una rama diferente a master, para poder trabajar sobre los errores del código o su modificación y también evitar que el mismo se sobrescriba simultanamente.
+Crear una rama diferente a master, para poder trabajar sobre los errores del código o su modificación y también evitar que el mismo se sobrescriba simultanamente.Una vez que se sepa que en la nueva rama todo esta correcto hacer un merge con la rama principal(master).
+
+9_¿Qué diferencias notaron en el proceso?
+
+La diferencia es que hay que utilizar github para hacer los merges y tambien pedir permiso para mergear el codigo hecho al dueño del repositorio remoto. Esto lleva mas tiempo pero a su vez puede permitir a desconocidos trabajar sobre el proyecto y verificar que estan subiendo.
+
+10_¿Qué estrategia utilizarían para evitar conflictos?
+Una buena comunicacion siempre es importante. Ademas se podria recomendar que cada uno trabaje en una rama local paralela a developed asi los conflictos se van "filtrando" por las distintas ramas.
+

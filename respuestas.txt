@@ -1,0 +1,16 @@
+5 - ¿Qué sucedió cuando se intento hacer el segundo push?
+
+Al intentar hacer el segundo push, la consola mostro el siguiente error:
+
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/Pewmafe/-tp-git-pb2.git'
+
+Esto debido a que al estar el repositorio remoto actualizado, no podría ser modificado por una version antigüa (local).
+
+6 -¿Qué acciones hay que tomar antes de realizar el push?
+
+Se debería actuliaziar el repositorio local, mediante un pull.
+
+7- ¿Qué estrategia propondrían para evitar esta situación?
+
+Crear una rama diferente a master, para poder trabajar sobre los errores del código o su modificación y también evitar que el mismo se sobrescriba simultanamente.

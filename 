@@ -1,0 +1,88 @@
+[33mcommit 8dd8a7b8e20f0a38e8808d400dc2f6eda3ce3c8b[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: sanchez matias <matias-leandro@outlook.com>
+Date:   Thu Apr 9 10:30:40 2020 -0300
+
+    primer commit
+
+[1mdiff --git a/.classpath b/.classpath[m
+[1mnew file mode 100644[m
+[1mindex 0000000..fb50116[m
+[1m--- /dev/null[m
+[1m+++ b/.classpath[m
+[36m@@ -0,0 +1,6 @@[m
+[32m+[m[32m<?xml version="1.0" encoding="UTF-8"?>[m
+[32m+[m[32m<classpath>[m
+[32m+[m	[32m<classpathentry kind="src" path="src"/>[m
+[32m+[m	[32m<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>[m
+[32m+[m	[32m<classpathentry kind="output" path="bin"/>[m
+[32m+[m[32m</classpath>[m
+[1mdiff --git a/.project b/.project[m
+[1mnew file mode 100644[m
+[1mindex 0000000..996a457[m
+[1m--- /dev/null[m
+[1m+++ b/.project[m
+[36m@@ -0,0 +1,17 @@[m
+[32m+[m[32m<?xml version="1.0" encoding="UTF-8"?>[m
+[32m+[m[32m<projectDescription>[m
+[32m+[m	[32m<name>tp-git-pb2</name>[m
+[32m+[m	[32m<comment></comment>[m
+[32m+[m	[32m<projects>[m
+[32m+[m	[32m</projects>[m
+[32m+[m	[32m<buildSpec>[m
+[32m+[m		[32m<buildCommand>[m
+[32m+[m			[32m<name>org.eclipse.jdt.core.javabuilder</name>[m
+[32m+[m			[32m<arguments>[m
+[32m+[m			[32m</arguments>[m
+[32m+[m		[32m</buildCommand>[m
+[32m+[m	[32m</buildSpec>[m
+[32m+[m	[32m<natures>[m
+[32m+[m		[32m<nature>org.eclipse.jdt.core.javanature</nature>[m
+[32m+[m	[32m</natures>[m
+[32m+[m[32m</projectDescription>[m
+[1mdiff --git a/bin/Calculadora.class b/bin/Calculadora.class[m
+[1mnew file mode 100644[m
+[1mindex 0000000..1c47ba0[m
+Binary files /dev/null and b/bin/Calculadora.class differ
+[1mdiff --git a/src/Calculadora.java b/src/Calculadora.java[m
+[1mnew file mode 100644[m
+[1mindex 0000000..0fc77f4[m
+[1m--- /dev/null[m
+[1m+++ b/src/Calculadora.java[m
+[36m@@ -0,0 +1,37 @@[m
+[32m+[m[32mimport java.util.Scanner;[m
+[32m+[m
+[32m+[m[32mpublic class Calculadora {[m
+[32m+[m	[32mpublic static void main(String[] args){[m[41m            [m
+[32m+[m		[32mInteger a;[m[41m            [m
+[32m+[m		[32mInteger b;[m[41m           [m
+[32m+[m		[32mInteger opcion;[m[41m            [m
+[32m+[m		[32mInteger resultado;[m
+[32m+[m[41m		[m
+[32m+[m		[32mdo{[m[41m            [m
+[32m+[m			[32mSystem.out.println("Ingrese su operación /n 1 para sumar /n 2 pararestar /n 3 para multiplicar /n 4 para dividir");[m[41m            [m
+[32m+[m			[32mopcion = teclado.next();[m[41m            [m
+[32m+[m			[32m}[m
+[32m+[m		[32mwhile(opcion < 1 && opcion > 4)[m[41m   [m
+[32m+[m[41m			[m
+[32m+[m		[32mSystem.out.println("Ingrese el primer numero");[m[41m            [m
+[32m+[m		[32ma = teclado.next();[m[41m  [m
+[32m+[m[41m		[m
+[32m+[m		[32mSystem.out.println("Ingrese el segundo numero");[m[41m            [m
+[32m+[m		[32ma = teclado.next();[m
+[32m+[m[41m		[m
+[32m+[m		[32mif(opcion.equals(1)){[m[41m                [m
+[32m+[m			[32mresultado = a + b;[m[41m                            [m
+[32m+[m			[32m}[m
+[32m+[m		[32melse if(opcion.equals(2)){[m[41m                [m
+[32m+[m			[32mresultado = a - b;[m[41m            [m
+[32m+[m			[32m}[m
+[32m+[m		[32melseif(opcion.equals(3)){[m[41m                [m
+[32m+[m			[32mresultado = a * b;[m[41m            [m
+[32m+[m			[32m}[m
+[32m+[m		[32melse{[m[41m                [m
+[32m+[m			[32mresultado = a / b;[m[41m            [m
+[32m+[m			[32m}[m
+[32m+[m[41m		[m
+[32m+[m		[32mSystem.out.println("El resultado es " + resultado.toString());[m[41m    [m
+[32m+[m		[32m}[m
+[32m+[m[32m}[m

@@ -26,13 +26,13 @@ public class Calculadora {
 		System.out.println("Ingrese el segundo numero");            
 		b = teclado.nextInt();
 		
-		if(opcion.equals(1)){                
+		if(opcion.equals(3)){                
 			resultado = a + b;                            
 			}
-		else if(opcion.equals(2)){                
+		else if(opcion.equals(1)){                
 			resultado = a - b;            
 			}
-		else if(opcion.equals(3)){                
+		else if(opcion.equals(2)){                
 			resultado = a * b;            
 			}
 		else{                
